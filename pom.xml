@@ -98,14 +98,14 @@
 	</repositories>
 	<distributionManagement>
 		<repository>
-			<id>nexus1</id>
-			<name>nexus1</name>
-			<url>http://13.127.206.155:8081/nexus/content/repositories/nexus1/</url>
+			<id>releases</id>
+			<name>releases</name>
+			<url>http://13.127.166.57:8081/repository/sample-release/</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshots</id>
 			<name>Snapshots</name>
-			<url>http://13.127.206.155:8081/nexus/content/repositories/snapshots/</url>
+			<url>http://13.127.166.57:8081/repository/sample-snapshot/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	<profiles>
